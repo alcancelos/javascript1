@@ -38,9 +38,9 @@ function ObtenerValores() {
     //Calculo el mayor con Math
     let resultado = Math.max.apply(null, Numeros);
     //si el resultado es distinto de null lo muestro, sino hay algun numero mal ingresado
-    if (resultado != NaN) {
+    if (!Number.isNaN(resultado)) {
         document.getElementById("Respuesta2").innerHTML = "El mayor número ingresado es: " + resultado;
     } else {
-        document.getElementById("Respuesta").innerHTML = "Ingresaste mal algún número"
+        document.getElementById("Respuesta2").innerHTML = "Ingresaste mal algún número"
     }
 }
