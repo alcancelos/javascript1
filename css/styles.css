@@ -1,0 +1,63 @@
+body{
+    width: 100%;
+    margin: auto;
+    background-color: darkkhaki;
+    text-align: center; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Ejercicio1{
+    margin-top: 5px;
+    width: 350px;
+    
+    background-color: khaki;
+    border: 1px solid black;
+    padding: 15px;
+    padding-top: 1px;
+    box-sizing: border-box;
+
+    box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.75);
+}
+.Ejercicio2{
+    width: 400px;  
+    
+    margin-left: 10px;  
+    background-color: rgb(152, 250, 149);
+    border: 1px solid black;
+    padding: 15px;
+    padding-top: 1px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.75);
+}
+#Imagen{
+    width: 200px;
+    height: 200px;
+    margin:auto;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px 5px;
+    padding: 5px;  
+    box-sizing: border-box;  
+}
+
+#Imagen img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+@media screen and (max-width: 799px){
+
+    body{
+        flex-direction: column;
+    }
+   .Ejercicio2{
+       margin-top: 15px;
+   }
+}
