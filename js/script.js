@@ -44,6 +44,7 @@ function ObtenerTransporte() {
 
 //Ejercicio 2
 
+//Primer Metodo usando Math
 function ObtenerMayor() {
 
     //Cargo el array con los numeros de los campos de texto
@@ -66,6 +67,7 @@ function ObtenerMayor() {
     }
 }
 
+//Segundo metodo usando un for y recorriendo el array
 function ObtenerMayor2() {
 
     //Cargo el array con los numeros de los campos de texto
